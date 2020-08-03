@@ -1,0 +1,30 @@
+.wrapper__header_type-res {
+    padding-top: 80px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper__header_type-res {
+        padding-top: 42px;
+
+    }
+}
+
+
+@media screen and (max-width: 582px) {
+    .wrapper__header_type-res {
+        flex-direction: column;
+        justify-content: flex-start;
+
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper__header_type-res {
+        padding-top: 36px;
+
+
+    }
+}

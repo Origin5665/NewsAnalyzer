@@ -1,0 +1,22 @@
+.author__wrapper-paragraph {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .author__wrapper-paragraph {
+        row-gap: 2px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .author__wrapper-paragraph {
+        row-gap: 0px;
+
+
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../vendor/normalize.css';
+@import '../../blocks/page/page.css';
+@import '../../vendor/fonts.css';
+@import '../../blocks/container/container.css';
+@import '../../blocks/keyframes/keyframes.css';
+@import '../../blocks/header/header.css';
+@import '../../blocks/search/search.css';
+@import '../../blocks/input-block/input-block.css';
+
+@import '../../blocks/loader/loader.css';
+@import '../../blocks/not-found/not-found.css';
+@import '../../blocks/result/result.css';
+@import '../../blocks/card/card.css';
+@import '../../blocks/author/author.css';
+
+@import '../../blocks/footer/footer.css';
+@import '../../blocks/wrapper/wrapper.css';

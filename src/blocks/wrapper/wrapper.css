@@ -1,0 +1,12 @@
+@import '../wrapper/__header/wrapper__header.css';
+@import '../wrapper/__link/wrapper__link.css';
+@import '../wrapper/_type-row-a/wrapper_type-row-a.css';
+@import '../wrapper/_type-row-i/wrapper_type-row-i.css';
+@import '../wrapper/__title/wrapper__title.css';
+@import '../wrapper/__link-dis/wrapper__link-dis.css';
+
+
+.wrapper {
+    display: grid;
+    margin: 0 auto;
+}

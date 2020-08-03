@@ -1,0 +1,8 @@
+@import '../result//__cards/result__cards.css';
+@import '../result/__button/result__button.css';
+@import '../result/__wrapper-card-block/result__wrapper-card-block.css';
+
+.result {
+    background: #F5F6F7;
+
+}

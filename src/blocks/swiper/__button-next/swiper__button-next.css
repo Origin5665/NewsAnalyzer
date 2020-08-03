@@ -1,0 +1,33 @@
+.swiper__button-next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: linear .2s;
+
+}
+
+.swiper__button-next:before {
+    content: url("../../../images/slider-control-nxt.svg");
+
+}
+
+.swiper__button-next:active {
+    transform: scale(0.8);
+}
+
+
+@media screen and (max-width: 768px) {
+    .swiper__button-next {
+        display: none;
+
+
+    }
+
+}

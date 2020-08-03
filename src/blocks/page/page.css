@@ -1,0 +1,17 @@
+@import './_background/page_background.css';
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,5 @@
+.diagram__wrapper {
+    display: grid;
+    grid-template-rows: 45px auto auto;
+
+}

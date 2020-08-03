@@ -1,0 +1,8 @@
+@import '../../blocks/header/header.css';
+@import '../../blocks/page/page.css';
+
+@import '../../vendor/fonts.css';
+@import '../../blocks/container/container.css';
+@import '../../blocks/footer/footer.css';
+@import '../../blocks/request/request.css';
+@import '../../blocks/diagram/diagram.css';

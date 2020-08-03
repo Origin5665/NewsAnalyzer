@@ -1,0 +1,43 @@
+@import './_color/_black/header__title_color_black.css';
+@import './_color/_white/header__title_color_white.css';
+
+.header__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: "Roboto-slab", Arial, Helvetica, sans-serif;
+    transition: ease .2s;
+}
+
+.header__title:hover {
+    opacity: 0.8;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .header__title {
+        font-size: 18px;
+
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__title {
+        font-size: 17px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__title {
+        font-size: 16px;
+
+
+    }
+}

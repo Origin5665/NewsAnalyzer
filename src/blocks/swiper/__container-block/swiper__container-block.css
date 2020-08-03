@@ -1,0 +1,34 @@
+.swiper__container-block {
+    display: grid;
+    grid-template-columns: 65px auto;
+    column-gap: 16px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .swiper__container-block {
+        grid-template-columns: 47px auto;
+        column-gap: 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .swiper__container-block {
+
+        column-gap: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .swiper__container-block {
+
+        column-gap: 7px;
+
+    }
+
+}

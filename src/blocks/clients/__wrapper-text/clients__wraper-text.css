@@ -1,0 +1,15 @@
+.clients__wrapper-text {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 24px;
+    max-width: 815px;
+    padding-bottom: 94px;
+}
+
+@media screen and (max-width: 768px) {
+    .clients__wrapper-text {
+        padding-bottom: 66px;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+@import './_active/swiper__pagination-bullet_active.css';
+
+.swiper__pagination-bullet {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+    cursor: pointer;
+}

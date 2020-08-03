@@ -1,0 +1,7 @@
+.footer__lists_grid-x2 {
+    display: grid;
+
+    grid-template-columns: 20px 25px;
+    justify-self: end;
+    column-gap: 27px;
+}

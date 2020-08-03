@@ -1,0 +1,40 @@
+.header__lists {
+    margin: 0;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    justify-items: end;
+    column-gap: 33px;
+    padding: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__lists {
+        column-gap: 36px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__lists {
+        column-gap: 20px;
+
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .header__lists {
+        column-gap: 7px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lists {
+        column-gap: 11px;
+
+    }
+}

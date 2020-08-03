@@ -1,0 +1,14 @@
+.swiper__wrapper-text {
+    display: grid;
+    grid-template-rows: 33px 25px;
+    row-gap: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper__wrapper-text {
+        grid-template-rows: 30px 25px;
+
+
+    }
+
+}

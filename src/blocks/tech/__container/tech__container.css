@@ -1,0 +1,6 @@
+.tech__container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    row-gap: 10px;
+}

@@ -1,0 +1,12 @@
+.tech__html {
+    fill: #D1D2D6;
+    transition: ease-in .3s;
+}
+
+
+
+.tech__html:hover {
+    fill: rgb(179, 92, 11);
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,8 @@
+.not-found__wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+
+    display: grid;
+    row-gap: 24px;
+    grid-template-rows: auto auto auto;
+}

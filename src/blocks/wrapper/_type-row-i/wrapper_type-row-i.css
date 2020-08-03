@@ -1,0 +1,19 @@
+.wrapper_type-row-i {
+    row-gap: 63px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper_type-row-i {
+        row-gap: 26px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper_type-row-i {
+        row-gap: 36px;
+
+    }
+}

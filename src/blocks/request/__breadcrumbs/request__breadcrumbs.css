@@ -1,0 +1,25 @@
+.request__breadcrumbs {
+    display: grid;
+    padding: 0;
+    list-style-type: none;
+    grid-template-columns: auto auto;
+    max-width: 190px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .request__breadcrumbs {
+        padding-top: 32px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .request__breadcrumbs {
+        display: none;
+
+    }
+}

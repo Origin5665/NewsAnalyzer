@@ -1,0 +1,25 @@
+.diagram__wrapper-block {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 52px;
+    margin-bottom: 64px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .diagram__wrapper-block {
+        column-gap: 70px;
+        margin-bottom: 15px;
+
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .diagram__wrapper-block {
+        column-gap: 30px;
+        margin-bottom: 19px;
+        padding-bottom: 34px;
+
+    }
+}

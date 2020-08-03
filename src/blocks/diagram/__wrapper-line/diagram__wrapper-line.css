@@ -1,0 +1,19 @@
+.diagram_wrapper-line {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    padding-top: 46px;
+    column-gap: 50px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 320px) {
+    .diagram_wrapper-line {
+        padding-top: 16px;
+        column-gap: 26px;
+        padding-bottom: 7px;
+
+    }
+}

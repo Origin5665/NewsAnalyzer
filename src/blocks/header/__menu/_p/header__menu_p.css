@@ -1,0 +1,41 @@
+.header__menu_p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu_p {
+
+        padding-left: 41px;
+        padding-right: 41px;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__menu_p {
+
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .header__menu_p {
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__menu_p {
+
+        padding-left: 16px;
+        padding-right: 18px;
+
+    }
+}

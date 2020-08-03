@@ -1,0 +1,62 @@
+.input-block__button {
+    width: 169px;
+    height: 64px;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background: #2F71E5;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 1px;
+    outline: none;
+    transition: ease .2s;
+
+}
+
+.input-block__button:hover {
+    background: #2669df;
+}
+
+.input-block__button:active {
+    background: #1c5ac4;
+}
+
+.input-block__button:focus {
+    background: #17305f;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .input-block__button {
+        width: 161px;
+        height: 54px;
+        right: 74px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .input-block__button {
+        right: 56px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .input-block__button {
+        right: 35px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .input-block__button {
+        position: relative;
+        right: 0px;
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,16 @@
+@import '../diagram/__wrapper-line/diagram__wrapper-line.css';
+@import '../diagram/__wrapper-num-block/diagram__wrapper-num-block.css';
+@import '../diagram/__wrapper-block/diagram__wrapper-block.css';
+@import '../diagram/__wrapper-date/diagram__wrapper-date.css';
+@import '../diagram/__wrapper-percent/diagram__wrapper-percent.css';
+@import '../diagram/__percent/diagram__percent.css';
+@import '../diagram/__wrapper/diagram__wrapper.css';
+@import '../diagram/__wrapper-percent-block/diagram__wrapper-percent-block.css';
+@import '../diagram/__title/diagram__title.css';
+@import '../diagram/__text-line/diagram__text-line.css';
+@import '../diagram/__text-date/diagram__text-date.css';
+@import '../diagram/__text-percent/diagram__text-percent.css';
+
+.diagram {
+    background: #F5F6F7;
+}

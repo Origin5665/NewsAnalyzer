@@ -1,0 +1,8 @@
+.header__text-link_color_gray {
+    color: #B6BCBF;
+    transition: ease .2s;
+}
+
+.header__text-link_color_gray:hover {
+    color: #1A1B22;
+}

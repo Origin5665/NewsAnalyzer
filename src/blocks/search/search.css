@@ -1,0 +1,34 @@
+@import '../search/__wrapper/search__wrapper.css';
+@import '../search/__title/search__title.css';
+@import '../search/__wrapper-text/search__wrapper-text.css';
+@import '../search/__subtitle/search__subtitle.css';
+
+.search {
+    background-image: url(../../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .search {
+        background-image: url(../../images/main-tab.jpg);
+        padding-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width: 563px) {
+    .search {
+        background-image: url(../../images/main-tab.jpg);
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .search {
+        background-image: url(../../images/main-mob.jpg);
+        padding-bottom: 32px;
+    }
+}

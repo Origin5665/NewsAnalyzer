@@ -1,0 +1,13 @@
+.request__wrapper-subtext {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 4px;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .request__wrapper-subtext {
+        padding-bottom: 80px;
+
+    }
+}

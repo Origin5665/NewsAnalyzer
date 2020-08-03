@@ -1,0 +1,19 @@
+.diagram__wrapper-num-block {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-between;
+    padding-bottom: 9px;
+}
+
+.diagram__wrapper-num-block-area {
+    padding-top: 11px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .diagram__wrapper-num-block {
+        display: none;
+
+    }
+}
