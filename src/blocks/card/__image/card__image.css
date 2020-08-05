@@ -1,0 +1,60 @@
+@import '../__image/_type/_1/card__image_type_1.css';
+@import '../__image/_type/_2/card__image_type_2.css';
+@import '../__image/_type/_3/card__image_type_3.css';
+
+.card__image {
+    max-width: 400px;
+    height: 272px;
+    height: 272px;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card__image {
+        height: 190px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .card__image {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .card__image {
+        height: 160px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .card__image {
+        height: 170px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .card__image {
+        height: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .card__image {
+        height: 195px;
+    }
+
+}

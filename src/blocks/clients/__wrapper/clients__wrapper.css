@@ -1,0 +1,23 @@
+.clients__wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .clients__wrapper {
+        row-gap: 14px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .clients__wrapper {
+        row-gap: 18px;
+
+    }
+
+}

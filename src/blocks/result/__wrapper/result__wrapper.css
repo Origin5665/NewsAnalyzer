@@ -1,0 +1,4 @@
+.result__wrapper {
+    display: grid;
+    row-gap: 62px;
+}

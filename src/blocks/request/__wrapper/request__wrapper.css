@@ -1,0 +1,20 @@
+.request__wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 80px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .request__wrapper {
+        row-gap: 55px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .request__wrapper {
+        row-gap: 48px;
+
+    }
+}

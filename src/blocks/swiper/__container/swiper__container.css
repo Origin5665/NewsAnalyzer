@@ -1,0 +1,7 @@
+.swiper__container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}

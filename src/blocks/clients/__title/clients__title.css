@@ -1,0 +1,18 @@
+.clients__title {
+    margin: 0;
+    font-family: "Roboto-Slab", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    padding-top: 82px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .clients__title {
+        padding-top: 26px;
+        font-size: 30px;
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,13 @@
+@import '../tech/__css/tech__css.css';
+@import '../tech/__html/tech__html.css';
+@import '../tech/__icons/tech__icons.css';
+@import '../tech/__js/tech__js.css';
+@import '../tech/__web/tech__web.css';
+@import '../tech/__wrapper/tech__wrapper.css';
+@import '../tech/__container/tech__container.css';
+@import '../tech/__title/tech__title.css';
+@import '../tech/__text-name/tech__text-name.css';
+
+.tech {
+    background: #F5F6F7;
+}

@@ -1,0 +1,12 @@
+@import '../../vendor/normalize.css';
+@import '../../blocks/page/page.css';
+@import '../../vendor/fonts.css';
+@import '../../blocks/container/container.css';
+@import '../../blocks/header/header.css';
+@import '../../blocks/author/author.css';
+
+@import '../../blocks/wrapper/wrapper.css';
+@import '../../blocks/footer/footer.css';
+@import '../../blocks/swiper/swiper.css';
+@import '../../blocks/clients/clients.css';
+@import '../../blocks/tech/tech.css';

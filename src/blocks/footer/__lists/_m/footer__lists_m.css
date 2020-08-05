@@ -1,0 +1,9 @@
+.footer__lists_m {
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .footer__lists_m {
+        order: 2;
+    }
+}

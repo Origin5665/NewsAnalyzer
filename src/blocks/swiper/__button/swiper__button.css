@@ -1,0 +1,41 @@
+.swiper__button {
+    width: 288px;
+    height: 56px;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 20px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: ease .2s;
+    outline: none;
+}
+
+
+@media screen and (min-width: 390px) {
+    .swiper__button {
+        display: none;
+
+    }
+}
+
+.swiper__button:hover {
+    border: 2px solid rgb(42, 45, 199);
+}
+
+.swiper__button:active {
+    transform: scale(0.95);
+}
+
+.swiper__button:focus {
+    background: rgba(134, 134, 160, 0.486);
+}

@@ -1,0 +1,16 @@
+.tech__wrapper {
+    display: grid;
+    grid-template-columns: 344px 635px;
+    column-gap: 160px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .tech__wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+}

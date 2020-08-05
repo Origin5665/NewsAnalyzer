@@ -1,0 +1,21 @@
+@import '../input-block/__input/input-block__input.css';
+@import '../input-block/__button/input-block__button.css';
+
+.input-block {
+    padding: 0;
+    max-width: 608px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 608px));
+    border: none;
+    position: relative;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .input-block {
+        grid-template-columns: repeat(auto-fill, minmax(256px, 594px));
+
+
+    }
+}

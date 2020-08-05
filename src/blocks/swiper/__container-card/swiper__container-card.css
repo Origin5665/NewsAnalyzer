@@ -1,0 +1,26 @@
+.swiper__container-card {
+    max-width: 352px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 10% 35% auto;
+    row-gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper__container-card {
+        max-width: 302px;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .swiper__container-card {
+        max-width: 250px;
+        row-gap: 5px;
+
+    }
+
+}

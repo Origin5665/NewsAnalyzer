@@ -1,0 +1,47 @@
+.input-block__input {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 90%;
+    height: 62px;
+    padding: 0;
+    border-radius: 100px;
+    border: 1px solid #D1D2D6;
+    margin-bottom: 81px;
+    padding: 0 0 0 20px;
+    outline: none;
+}
+
+.input-block__input:focus {
+    background: rgba(221, 221, 228, 0.89);
+}
+
+.input-block__input::placeholder {
+    color: #B6BCBF;
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+}
+
+.input-block__input:focus::placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .input-block__input {
+        width: 70%;
+        height: 51px;
+        margin-bottom: 50px;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .input-block__input {
+        width: 92%;
+        margin-bottom: 19px;
+        padding-right: 5px;
+
+    }
+}

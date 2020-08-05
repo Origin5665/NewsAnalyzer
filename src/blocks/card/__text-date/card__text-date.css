@@ -1,0 +1,34 @@
+.card__text-date {
+    margin: 0;
+    font-family: "Source-Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .card__text-date {
+        padding-top: 15px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card__text-date {
+        padding-top: 15px;
+
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card__text-date {
+        padding-top: 15px;
+
+
+    }
+}

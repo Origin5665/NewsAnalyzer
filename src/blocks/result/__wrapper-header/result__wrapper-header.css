@@ -1,0 +1,5 @@
+.result__wrapper-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 80px;
+}

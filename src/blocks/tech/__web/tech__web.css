@@ -1,0 +1,9 @@
+.tech__web {
+    fill: #D1D2D6;
+    transition: ease-in .3s;
+}
+
+.tech__web:hover {
+    fill: rgb(93, 168, 218);
+    transform: scale(1.05);
+}

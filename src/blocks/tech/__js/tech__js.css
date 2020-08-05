@@ -1,0 +1,9 @@
+.tech__js {
+    fill: #D1D2D6;
+    transition: ease-in .2s;
+}
+
+.tech__js:hover {
+    fill: rgb(197, 195, 57);
+    transform: scale(1.05);
+}

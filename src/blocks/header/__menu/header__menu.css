@@ -1,0 +1,50 @@
+@import './_p/header__menu_p.css';
+
+.header__menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    max-width: 1232px;
+    margin: 0 auto;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        padding-top: 23px;
+        padding-bottom: 17px;
+
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__menu {
+        padding-top: 20px;
+        padding-bottom: 15px;
+
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header__menu {
+        padding-top: 18px;
+        padding-bottom: 15px;
+
+
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .header__menu {
+        padding-top: 17px;
+        padding-bottom: 14px;
+
+
+    }
+}

@@ -1,0 +1,18 @@
+.result__wrapper-card-block {
+    display: grid;
+    row-gap: 70px
+}
+
+@media screen and (max-width: 768px) {
+    .result__wrapper-card-block {
+        row-gap: 33px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .result__wrapper-card-block {
+        row-gap: 14px;
+
+    }
+}

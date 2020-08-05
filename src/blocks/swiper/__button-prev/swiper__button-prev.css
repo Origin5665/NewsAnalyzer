@@ -1,0 +1,31 @@
+.swiper__button-prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: linear .2s;
+}
+
+.swiper__button-prev:before {
+    content: url("../../../images/slider-control-prev.svg");
+
+}
+
+.swiper__button-prev:active {
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .swiper__button-prev {
+        display: none;
+
+
+    }
+
+}

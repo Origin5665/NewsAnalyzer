@@ -1,0 +1,9 @@
+.not-found__image {
+    margin: 0 auto;
+    padding-top: 80px;
+    transition: ease .2s;
+}
+
+.not-found__image:hover {
+    transform: scale(1.1);
+}

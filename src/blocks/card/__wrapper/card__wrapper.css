@@ -1,0 +1,108 @@
+.card__wrapper {
+  max-width: 352px;
+  margin: 0 auto;
+  position: relative;
+  height: 304px;
+
+}
+
+@media screen and (max-width: 1220px) {
+  .card__wrapper {
+
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .card__wrapper {
+
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .card__wrapper {
+
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .card__wrapper {
+
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .card__wrapper {
+
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .card__wrapper {
+
+    max-width: 230px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .card__wrapper {
+
+    max-width: 215px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .card__wrapper {
+
+    max-width: 193px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .card__wrapper {
+
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card__wrapper {
+
+    max-width: 225px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__wrapper {
+
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__wrapper {
+
+    max-width: 210px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+  .card__wrapper {
+
+    max-width: 256px;
+  }
+}

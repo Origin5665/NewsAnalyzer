@@ -1,0 +1,9 @@
+@import './_color/_black/request__subtitle_color_black.css';
+
+
+.request__subtitle {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}

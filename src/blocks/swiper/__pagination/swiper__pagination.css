@@ -1,0 +1,22 @@
+.swiper__pagination {
+
+    display: block;
+    text-align: center;
+
+    margin-bottom: 53px;
+    transition: opacity 0.3s;
+    transform: translateZ(0);
+    z-index: 10;
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .swiper__pagination {
+
+        margin-bottom: 0;
+
+    }
+
+}

@@ -1,0 +1,39 @@
+.wrapper__link {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 12px;
+    display: flex;
+    justify-self: right;
+    transition: ease .2s;
+}
+
+.wrapper__link::after {
+    content: url(../../../images/back.svg);
+    margin-right: 0px;
+    margin-left: 1px;
+    padding-top: 1px;
+
+}
+
+.wrapper__link:hover {
+    color: #1c5ac4
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper__link {
+        padding-top: 7px;
+        text-align: right;
+    }
+
+
+
+
+}

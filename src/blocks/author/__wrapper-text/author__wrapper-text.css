@@ -1,0 +1,28 @@
+.author__wrapper-text {
+    width: 90%;
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 46px;
+    margin-bottom: auto;
+    row-gap: 24px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .author__wrapper-text {
+        row-gap: 12px;
+        padding-top: 39px;
+        width: 90%;
+
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .author__wrapper-text {
+        row-gap: 13px;
+        padding-top: 26px;
+        width: 100%;
+
+    }
+}

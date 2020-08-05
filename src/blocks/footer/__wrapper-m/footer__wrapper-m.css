@@ -1,0 +1,36 @@
+.footer__wrapper-m {
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    justify-content: space-between;
+}
+
+
+/* Media */
+
+
+
+@media screen and (max-width: 768px) {
+    .footer__wrapper-m {
+        flex-direction: row;
+        justify-content: space-between;
+
+        flex-basis: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer__wrapper-m {
+        flex-direction: column;
+        justify-content: start;
+        flex-basis: 200px;
+        justify-content: space-between;
+        height: 181px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer__wrapper-m {
+        flex-basis: 220px;
+    }
+}

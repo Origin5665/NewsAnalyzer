@@ -1,0 +1,43 @@
+.result__button {
+    width: 288px;
+    height: 64px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 80px;
+    border: none;
+    margin-bottom: 80px;
+    transition: ease .1s;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+}
+
+.result__button:active {
+    transform: scale(0.99);
+}
+
+.result__button:hover {
+    background: #ffffffa1;
+}
+
+.result__button:focus {
+    background: #cecece91;
+}
+
+@media screen and (max-width: 768px) {
+    .result__button {
+        width: 240px;
+        height: 56px;
+        margin-bottom: 40px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .result__button {
+        width: 285px;
+        height: 54px;
+        margin-bottom: 44px;
+
+    }
+}

@@ -1,0 +1,25 @@
+@import '../swiper/__commit/swiper__commit.css';
+@import '../swiper/__container-block/swiper__container-block.css';
+@import '../swiper/__container/swiper__container.css';
+@import '../swiper/__wrapper/swiper__wrapper.css';
+@import '../swiper/__wrapper-text/swiper__wrapper-text.css';
+@import '../swiper/__pagination/swiper__pagination.css';
+@import '../swiper/__button-next/swiper__button-next.css';
+@import '../swiper/__button-prev/swiper__button-prev.css';
+@import '../swiper/__background/swiper__background.css';
+@import '../swiper/__pagination-bullet/swiper__pagination-bullet.css';
+@import '../swiper/__pagination-bullet/_active/swiper__pagination-bullet_active.css';
+@import '../swiper/__container-card/swiper__container-card.css';
+@import '../swiper/__image/swiper__image.css';
+@import '../swiper/__button/swiper__button.css';
+@import '../swiper/__wrap/swiper__wrap.css';
+@import '../swiper/__text-commit/swiper__text-commit.css';
+@import '../swiper/__text-email/swiper__text-email.css';
+@import '../swiper/__text-name/swiper__text-name.css';
+@import '../swiper/__text_date/swiper__text-date.css';
+
+.swiper {
+    background: #F5F6F7;
+    width: 100%;
+    margin: 0 auto;
+}

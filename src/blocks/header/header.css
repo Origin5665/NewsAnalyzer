@@ -1,0 +1,8 @@
+@import '../header/__text-link/header__text-link.css';
+@import '../header/__menu/header__menu.css';
+@import '../header/__lists/header__lists.css';
+@import '../header/__title/header__title.css';
+
+.header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678)
+}

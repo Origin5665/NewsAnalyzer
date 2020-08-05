@@ -1,0 +1,10 @@
+@import '../__lists/_grid-x3/footer__lists_grid-x3.css';
+@import '../__lists/_grid-x2/footer__lists_grid-x2.css';
+@import '../__lists/_m/footer__lists_m.css';
+
+.footer__lists {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}

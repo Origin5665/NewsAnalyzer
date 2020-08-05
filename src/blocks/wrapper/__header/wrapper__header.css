@@ -1,0 +1,17 @@
+@import '../__header/_type-top/wrapper__header_type-top.css';
+@import '../__header/_type-res/wrapper__header_type-res.css';
+
+.wrapper__header {
+    display: grid;
+    max-width: 1232px;
+    column-gap: 40px;
+
+}
+
+@media screen and (max-width: 582px) {
+    .wrapper__header {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+}

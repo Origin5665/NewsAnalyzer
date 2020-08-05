@@ -1,0 +1,15 @@
+.loader__wrapper {
+    max-width: 280px;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: grid;
+    row-gap: 24px;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .loader__wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
