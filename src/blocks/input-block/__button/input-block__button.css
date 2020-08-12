@@ -18,16 +18,21 @@
 
 }
 
-.input-block__button:hover {
+/* .input-block__button:hover {
     background: #2669df;
-}
+} */
 
 .input-block__button:active {
     background: #1c5ac4;
 }
 
-.input-block__button:focus {
+/* .input-block__button:focus {
     background: #17305f;
+} */
+
+.input-block__button-disactive {
+    background: #7c2424;
+
 }
 
 

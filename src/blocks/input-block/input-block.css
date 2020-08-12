@@ -1,5 +1,6 @@
 @import '../input-block/__input/input-block__input.css';
 @import '../input-block/__button/input-block__button.css';
+@import '../input-block/__error/input-block__error.css';
 
 .input-block {
     padding: 0;

@@ -17,7 +17,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/[name].[contenthash].js'
+        filename: '[name].[chunkhash].js'
     },
     module: {
         rules: [{
@@ -27,7 +27,7 @@ module.exports = {
         },
         {
             test: /\.css$/i,
-            use: [(isDev ? 'style-loader' : { loader: MiniCssExtractPlugin.loader, options: { publicPath: '../', } }), 'css-loader', 'postcss-loader']
+            use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader), 'css-loader', 'postcss-loader']
         },
         {
             test: /\.(png|jpe?g|gif|ico|svg|webp)$/i,
@@ -35,23 +35,12 @@ module.exports = {
                 'file-loader?name=images/[name].[ext]',
                 {
                     loader: 'image-webpack-loader',
-                    // options: {
-                    //     webp: {
-                    //         quality: 80
-                    //     },
-                    //     svgo: {
-                    //         quality: 80
-                    //     },
-                    //     mozjpeg: {
-                    //         progressive: true,
-                    //         quality: 70
-                    //     },
-                    // }
+                    options: {
+
+                    }
                 },
             ],
-
         },
-
         {
             test: /\.(eot|ttf|woff|woff2)$/,
             loader: 'file-loader?name=./vendor/[name].[ext]'
@@ -59,7 +48,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css', }),
+        new MiniCssExtractPlugin({ filename: 'style.[contenthash].css', }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
             cssProcessor: require('cssnano'),
@@ -70,16 +59,19 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            template: './src/pages/index/index.html',
-            filename: 'index.html',
+            inject: false,
             chunks: ['index'],
+            template: './src/pages/index/index.html',
+            filename: 'index.html'
         }),
         new HtmlWebpackPlugin({
+            inject: false,
             template: './src/pages/about/about.html',
             chunks: ['about'],
             filename: 'about.html'
         }),
         new HtmlWebpackPlugin({
+            inject: false,
             template: './src/pages/analytics/analytics.html',
             chunks: ['analytics'],
             filename: 'analytics.html'
@@ -89,12 +81,5 @@ module.exports = {
         }),
 
         new WebpackMd5Hash(),
-
-
-
-    ],
-    devServer: {
-        contentBase: path.join(__dirname, 'dist'),
-        open: true,
-    }
+    ]
 }
