@@ -4,11 +4,9 @@ export default class NewsApi {
     }
 
     getNews(data) {
-        const val = data
-
-        return fetch(` https://newsapi.org/v2/everything?language=ru&q=${val}&from=${this.config.dateFrom}&to=${this.config.dateTo}&sortBy=publishedAt&pageSize=${this.config.PAGE_SIZE}&apiKey=${this.config.API_KEY}`, {
+        const request = data;
+        return fetch(` https://nomoreparties.co/news/v2/everything?language=ru&q=${request}&${this.config.dateFrom}&sortBy=publishedAt&pageSize=${this.config.PAGE_SIZE}&apiKey=${this.config.API_KEY}`, {
             method: "GET",
-
         })
             .then(res => {
                 if (res.ok) {
@@ -19,3 +17,5 @@ export default class NewsApi {
             })
     }
 }
+
+

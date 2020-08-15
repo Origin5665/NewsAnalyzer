@@ -1,5 +1,14 @@
 export default class DataStorage {
 
+    addRequestStorage(request) {
+        localStorage.setItem('request', request)
+    }
+
+    getRequestStorage() {
+        this.request = localStorage.getItem('request')
+        return this.request;
+    }
+
 
     addStorage(newsArray) {
         localStorage.setItem('news', JSON.stringify(newsArray))
@@ -7,6 +16,11 @@ export default class DataStorage {
 
     addTotalStorage(number) {
         localStorage.setItem('total', number)
+    }
+
+    getTotalStorage() {
+        this.num = localStorage.getItem('total')
+        return this.num;
     }
 
     getStorage() {

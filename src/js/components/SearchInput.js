@@ -1,52 +1,57 @@
 export default class SearchInput {
-    constructor(config) {
-        this.input = config.input;
-        this.button = config.button;
-        this.error = config.error
-        this.errorElement = config.errorEl
+   constructor(config) {
+      this.input = config.input;
+      this.button = config.button;
+      this.error = config.error
+      this.errorElement = config.errorEl
 
-    }
+   }
 
-    setSubmitButtonState(button, state) {
-        if (state === true) {
+   // Меняет состояние кнопки:
 
-            button.classList.remove('input-block__button-disactive');
-            button.removeAttribute('disabled');
+   _setSubmitButtonState(button, state) {
+      if (state === true) {
 
-        } else {
+         button.classList.remove('input-block__button-disactive');
+         button.removeAttribute('disabled');
 
-            button.classList.add('input-block__button-disactive');
-            button.setAttribute('disabled', 'disabled');
-        }
-    }
+      } else {
 
-    setEventListeners() {
+         button.classList.add('input-block__button-disactive');
+         button.setAttribute('disabled', 'disabled');
+      }
+   }
+   // Устанавливает слушатель инпута:
 
-        this.input.addEventListener('input', (event) => this.isFieldValid(event.target))
-    }
+   setEventListeners() {
+
+      this.input.addEventListener('input', (event) => this._isFieldValid(event.target))
+   }
 
 
+   // Если поле валидно, меняет состояние кнопки или выводим ошибку:
 
-    isFieldValid(input) {
+   _isFieldValid(input) {
 
-        this.checkInputValidity(input) ? this.setSubmitButtonState(this.button, true) : this.setSubmitButtonState(this.button, false)
-        this.errorElement.textContent = input.validationMessage;
+      this._checkInputValidity(input) ? this._setSubmitButtonState(this.button, true) : this._setSubmitButtonState(this.button, false)
+      this.errorElement.textContent = input.validationMessage;
 
-    }
+   }
+   // Проверка на валидность: 
 
-    checkInputValidity(input) {
-        input.setCustomValidity('');
+   _checkInputValidity(input) {
+      input.setCustomValidity('');
 
-        if (input.validity.valueMissing) {
-            input.setCustomValidity('Поле не должно быть пустым');
-            return false;
-        }
-        if (input.validity.tooShort || input.validity.tooLong) {
-            input.setCustomValidity('Не менее двух символов');
-            return false
-        }
-        return input.checkValidity();
-    }
+      if (input.validity.valueMissing) {
+         input.setCustomValidity('Поле не должно быть пустым');
+         return false;
+      }
+      if (input.validity.tooShort || input.validity.tooLong) {
+         input.setCustomValidity('Не менее двух символов');
+         return false
+      }
+      return input.checkValidity();
+   }
 
 
 

@@ -2,277 +2,257 @@
 <html lang="ru">
 
 <head>
- <meta charset="UTF-8">
- <meta name="author" content="Александр Бакуменко">
- <meta name="description" content="Дипломный проект на курсе Фронтенд-разработчик в Яндекс-Практикум.">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>NewsAnalyzer - О проекте</title>
- <link rel="icon" type="image/x-icon" href="<%=require('../../images/favicon.ico').default%>" />
+  <meta charset="UTF-8">
+  <meta name="author" content="Александр Бакуменко">
+  <meta name="description" content="Дипломный проект на курсе Фронтенд-разработчик в Яндекс-Практикум.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NewsAnalyzer - О проекте</title>
+  <link rel="icon" type="image/x-icon" href="<%=require('../../images/favicon.ico').default%>" />
 
- <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>">
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>">
 </head>
 
 <body class="page">
 
- <!-- Header -->
+  <!-- Header -->
 
- <header class="header">
-  <div class="container">
-   <nav class="header__menu">
-    <a class="header__title header__title_color_black" href="./index.html">NewsAnalyzer</a>
-    <ul class=" header__lists">
-     <li><a class="header__text-link header__text-link_color_black" href="./index.html">Главная</a></li>
-     <li><a class="header__text-link header__text-link_color_black header__text-link_active_black" href="./about.html">О
-       проекте</a></li>
-    </ul>
-   </nav>
-  </div>
- </header>
- <main class="main">
-
-  <!-- Clients -->
-
-  <section class="clients">
-   <div class="container">
-    <div class="clients__wrapper">
-     <h2 class="clients__title">Клиентам</h2>
-     <div class="clients__wrapper-text">
-      <p class="clients__text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему
-       научился
-       студент, какими технологиями владеет.
-      </p>
-
-      <p class="clients__text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и
-       масштабируемым. Кроме
-       того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим
-       методологиям. Также сайт проще и дешевле поддерживать.
-      </p>
-      <p class="clients__text">
-       Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать,
-       пока от сервера приходит ответ. Это повышает удобство использования сервиса.
-
-
-      </p>
-      <p class="clients__text">
-       При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке
-       сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже
-       если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А
-       значит, потенциальная аудитория возрастает.
-
-      </p>
-      <p class="clients__text">
-       Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем
-       обратиться к этому студенту.
-      </p>
-
-     </div>
+  <header class="header">
+    <div class="container">
+      <nav class="header__menu">
+        <a class="header__title header__title_color_black" href="./index.html">NewsAnalyzer</a>
+        <ul class=" header__lists">
+          <li><a class="header__text-link header__text-link_color_black" href="./index.html">Главная</a></li>
+          <li><a class="header__text-link header__text-link_color_black header__text-link_active_black"
+              href="./about.html">О
+              проекте</a></li>
+        </ul>
+      </nav>
     </div>
-   </div>
-  </section>
+  </header>
+  <main class="main">
 
-  <!-- Tech -->
+    <!-- Clients -->
 
-  <section class="tech">
-   <div class="container">
-    <div class="tech__wrapper">
-     <h2 class="tech__title">Используемые технологии</h2>
-     <div class="tech__icons">
-      <div class="tech__container">
-       <p class="tech__text-name">HTML</p>
-       <svg class="tech__html" width="120" height="120">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 14h88l-7.6 87.53L60 111l-36.07-9.47L16 14z" />
-        <path fill="#F5F6F7" class='html-icon-2' fill-rule="evenodd" clip-rule="evenodd"
-         d="M34.48 32.16h51.13v9.7H45.07l.97 12.06h38.73L82.7 86.5l-22.64 5.9-20.98-5.93-1.5-14.22 9.72-1.01.81 7.7 12.06 3.4 13.21-3.44.98-15.28H37l-2.53-31.46z" />
-       </svg>
-      </div>
-      <div class="tech__container">
-       <p class="tech__text-name">CSS</p>
-       <svg class="tech__css" width="120" height="120" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 14h88l-7.6 87.53L60 111l-36.07-9.47L16 14z" />
-        <path fill="#F5F6F7" fill-rule="evenodd" clip-rule="evenodd"
-         d="M38.55 32.15H86.7l-2.26 26.98-1.75 27.39-22.63 5.9-20.98-5.94-1.51-14.23 9.72-1.02.82 7.7 12.05 3.4 13.22-3.44.97-15.26H53.28v-9.72h21.78l1.01-12.04H38.55v-9.72z" />
-       </svg>
-      </div>
-      <div class="tech__container">
-       <p class="tech__text-name">Javasript</p>
-       <svg class="tech__js" width="120" height="120" fill="none">
-        <path d="M14 14h92v92H14V14z" />
-        <path fill="#F5F6F7"
-         d="M38.2 90.88l7.03-4.26c1.36 2.41 2.6 4.45 5.56 4.45 2.84 0 4.63-1.11 4.63-5.44v-29.4h8.65v29.53c0 8.95-5.25 13.03-12.91 13.03-6.92 0-10.93-3.59-12.97-7.9M68.76 89.95l7.04-4.07c1.85 3.03 4.26 5.25 8.52 5.25 3.58 0 5.87-1.8 5.87-4.26 0-2.97-2.35-4.02-6.3-5.75l-2.16-.92c-6.24-2.66-10.38-6-10.38-13.03 0-6.49 4.94-11.43 12.66-11.43 5.5 0 9.45 1.92 12.3 6.92l-6.74 4.32c-1.48-2.65-3.09-3.7-5.56-3.7-2.53 0-4.13 1.6-4.13 3.7 0 2.6 1.6 3.65 5.3 5.25l2.17.93c7.35 3.15 11.49 6.36 11.49 13.58 0 7.79-6.12 12.05-14.33 12.05-8.03 0-13.22-3.83-15.75-8.84" />
-       </svg>
-      </div>
-      <div class="tech__container">
-       <p class="tech__text-name">Webpack</p>
-       <svg class="tech__web" width="120" height="120" fill="none">
-        <path
-         d="M101.829 86.8021L61.6847 109.513V91.8284l25.0132-13.7632 15.1311 8.7369zm2.75-2.4869V36.8284l-14.6838 8.4868v30.5263l14.6838 8.4737zm-86.5653 2.4869l40.1447 22.7109V91.8284L33.1321 78.0652l-15.1184 8.7369zm-2.75-2.4869V36.8284l14.6842 8.4868v30.5263l-14.6842 8.4737zm1.7237-50.5658L58.1584 10.46v17.0921L31.7768 42.0652l-.2105.1184-14.5789-8.4342zm85.8686 0L61.6847 10.46v17.0921l26.3816 14.5.2105.1184 14.5792-8.4211zM58.1574 87.8019l-24.6843-13.579V47.3414l24.6843 14.25v26.2105zm3.5263 0l24.6842-13.5658V47.3414l-24.6842 14.25v26.2105zM35.1442 44.2361l24.7763-13.6184 24.7763 13.6184-24.7763 14.3026-24.7763-14.3026z" />
-       </svg>
-      </div>
-     </div>
-    </div>
-   </div>
-  </section>
+    <section class="clients">
+      <div class="container">
+        <div class="clients__wrapper">
+          <h2 class="clients__title">Клиентам</h2>
+          <div class="clients__wrapper-text">
+            <p class="clients__text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему
+              научился
+              студент, какими технологиями владеет.
+            </p>
 
-  <!-- Author -->
+            <p class="clients__text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и
+              масштабируемым. Кроме
+              того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим
+              методологиям. Также сайт проще и дешевле поддерживать.
+            </p>
+            <p class="clients__text">
+              Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать,
+              пока от сервера приходит ответ. Это повышает удобство использования сервиса.
 
-  <section class="author">
-   <div class="container">
-    <div class="author__wrapper">
-     <picture class="author__photo-container">
-      <source type="image/webp"
-       srcset="<%=require('../../images/author/webp/tablet/author-photo-tab@x2.webp').default%> 2x, <%=require('../../images/author/webp/tablet/author-photo-tab@x1.webp').default%> 1x"
-       media="(max-width: 768px)">
 
-      <source type="image/webp"
-       srcset="<%=require('../../images/author/webp/mobile/author-photo-mob@x2.webp').default%> 2x, <%=require('../../images/author/webp/mobile/author-photo-mob@x1.webp').default%> 1x"
-       media="(max-width: 450px)">
+            </p>
+            <p class="clients__text">
+              При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке
+              сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже
+              если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А
+              значит, потенциальная аудитория возрастает.
 
-      <source type="image/webp"
-       srcset="<%=require('../../images/author/webp/desktop/author-photo-desk@x2.webp').default%> 2x, <%=require('../../images/author/webp/desktop/author-photo-desk@x1.webp').default%> 1x"
-       media="(max-width: 1440px)">
+            </p>
+            <p class="clients__text">
+              Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем
+              обратиться к этому студенту.
+            </p>
 
-      <source type="image/jpg"
-       srcset="<%=require('../../images/author/jpg/mobile/author-photo-mob@x2.jpg').default%> 2x, <%=require('../../images/author/jpg/mobile/author-photo-mob@x1.jpg').default%> 1x"
-       media="(max-width: 450px)">
-
-      <source type="image/jpg"
-       srcset="<%=require('../../images/author/jpg/tablet/author-photo-tab@x2.jpg').default%> 2x, <%=require('../../images/author/jpg/tablet/author-photo-tab@x1.jpg').default%> 1x"
-       media="(max-width: 768px)">
-
-      <img class="author__photo" alt="Фотография автора данного проекта"
-       src="<%=require('../../images/author/jpg/desktop/author-photo-desk@x1.jpg').default%>"
-       srcset="<%=require('../../images/author/jpg/desktop/author-photo-desk@x2.jpg').default%> 2x">
-
-     </picture>
-     <div class="author__wrapper-text">
-      <h3 class="author__title">Об авторе</h3>
-      <div class="author__wrapper-paragraph">
-       <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
-        занимаетесь,
-        какими
-        технологиями разработки владеете.
-       </p>
-       <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и
-        чем можете помочь потенциальным заказчикам. Также можно рассказать о процессе обучения в Практикуме,
-        чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
-      </div>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="swiper">
-   <div class="wrapper wrapper_type-row-a">
-    <div class="wrapper__header wrapper__header_type-top">
-     <h3 class="wrapper__title">История коммитов из GitHub</h3>
-     <a target="blank" href="https://github.com/Origin5665/NewsAnalyzer" class="wrapper__link-dis">Открыть в
-      Github</a>
-    </div>
-    <div class="swiper__container">
-     <div class="swiper__wrapper">
-      <article class="swiper__commit">
-       <div class="swiper__container-card">
-        <p class="swiper__text-date">14 августа, 2019</p>
-        <div class="swiper__container-block">
-         <img src="<%=require('../../images/image-01.jpg').default%>" alt="Фотография автора коммита"
-          class="swiper__image">
-         <div class="swiper__wrapper-text">
-          <h4 class="swiper__text-name">Origin56</h4>
-          <a href="mailto:aleksandrbakumenko11@gmail.com" class="swiper__text-email">aleksandrbakumenko11@gmail.com</a>
-         </div>
+          </div>
         </div>
-        <p class="swiper__text-commit">Emmet (formerly Zen Coding) is a web-
-         developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-       </div>
-      </article>
-      <article class="swiper__commit">
-       <div class="swiper__container-card">
-        <p class="swiper__text-date">14 августа, 2019</p>
-        <div class="swiper__container-block">
-         <img src="<%=require('../../images/image-01.jpg').default%>" alt="Фотография автора коммита"
-          class="swiper__image">
-         <div class="swiper__wrapper-text">
-          <h4 class="swiper__text-name">Origin56</h4>
-          <a href="mailto:aleksandrbakumenko11@gmail.com" class="swiper__text-email">aleksandrbakumenko11@gmail.com</a>
-         </div>
+      </div>
+    </section>
+
+    <!-- Tech -->
+
+    <section class="tech">
+      <div class="container">
+        <div class="tech__wrapper">
+          <h2 class="tech__title">Используемые технологии</h2>
+          <div class="tech__icons">
+            <div class="tech__container">
+              <p class="tech__text-name">HTML</p>
+              <svg class="tech__html" width="120" height="120">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 14h88l-7.6 87.53L60 111l-36.07-9.47L16 14z" />
+                <path fill="#F5F6F7" class='html-icon-2' fill-rule="evenodd" clip-rule="evenodd"
+                  d="M34.48 32.16h51.13v9.7H45.07l.97 12.06h38.73L82.7 86.5l-22.64 5.9-20.98-5.93-1.5-14.22 9.72-1.01.81 7.7 12.06 3.4 13.21-3.44.98-15.28H37l-2.53-31.46z" />
+              </svg>
+            </div>
+            <div class="tech__container">
+              <p class="tech__text-name">CSS</p>
+              <svg class="tech__css" width="120" height="120" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 14h88l-7.6 87.53L60 111l-36.07-9.47L16 14z" />
+                <path fill="#F5F6F7" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M38.55 32.15H86.7l-2.26 26.98-1.75 27.39-22.63 5.9-20.98-5.94-1.51-14.23 9.72-1.02.82 7.7 12.05 3.4 13.22-3.44.97-15.26H53.28v-9.72h21.78l1.01-12.04H38.55v-9.72z" />
+              </svg>
+            </div>
+            <div class="tech__container">
+              <p class="tech__text-name">Javasript</p>
+              <svg class="tech__js" width="120" height="120" fill="none">
+                <path d="M14 14h92v92H14V14z" />
+                <path fill="#F5F6F7"
+                  d="M38.2 90.88l7.03-4.26c1.36 2.41 2.6 4.45 5.56 4.45 2.84 0 4.63-1.11 4.63-5.44v-29.4h8.65v29.53c0 8.95-5.25 13.03-12.91 13.03-6.92 0-10.93-3.59-12.97-7.9M68.76 89.95l7.04-4.07c1.85 3.03 4.26 5.25 8.52 5.25 3.58 0 5.87-1.8 5.87-4.26 0-2.97-2.35-4.02-6.3-5.75l-2.16-.92c-6.24-2.66-10.38-6-10.38-13.03 0-6.49 4.94-11.43 12.66-11.43 5.5 0 9.45 1.92 12.3 6.92l-6.74 4.32c-1.48-2.65-3.09-3.7-5.56-3.7-2.53 0-4.13 1.6-4.13 3.7 0 2.6 1.6 3.65 5.3 5.25l2.17.93c7.35 3.15 11.49 6.36 11.49 13.58 0 7.79-6.12 12.05-14.33 12.05-8.03 0-13.22-3.83-15.75-8.84" />
+              </svg>
+            </div>
+            <div class="tech__container">
+              <p class="tech__text-name">Webpack</p>
+              <svg class="tech__web" width="120" height="120" fill="none">
+                <path
+                  d="M101.829 86.8021L61.6847 109.513V91.8284l25.0132-13.7632 15.1311 8.7369zm2.75-2.4869V36.8284l-14.6838 8.4868v30.5263l14.6838 8.4737zm-86.5653 2.4869l40.1447 22.7109V91.8284L33.1321 78.0652l-15.1184 8.7369zm-2.75-2.4869V36.8284l14.6842 8.4868v30.5263l-14.6842 8.4737zm1.7237-50.5658L58.1584 10.46v17.0921L31.7768 42.0652l-.2105.1184-14.5789-8.4342zm85.8686 0L61.6847 10.46v17.0921l26.3816 14.5.2105.1184 14.5792-8.4211zM58.1574 87.8019l-24.6843-13.579V47.3414l24.6843 14.25v26.2105zm3.5263 0l24.6842-13.5658V47.3414l-24.6842 14.25v26.2105zM35.1442 44.2361l24.7763-13.6184 24.7763 13.6184-24.7763 14.3026-24.7763-14.3026z" />
+              </svg>
+            </div>
+          </div>
         </div>
-        <p class="swiper__text-commit">Emmet (formerly Zen Coding) is a web-
-         developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-       </div>
-      </article>
-      <article class="swiper__commit">
-       <div class="swiper__container-card">
-        <p class="swiper__text-date">14 августа, 2019</p>
-        <div class="swiper__container-block">
-         <img src="<%=require('../../images/image-01.jpg').default%>" alt="Фотография автора коммита"
-          class="swiper__image">
-         <div class="swiper__wrapper-text">
-          <h4 class="swiper__text-name">Origin56</h4>
-          <a href="mailto:aleksandrbakumenko11@gmail.com" class="swiper__text-email">aleksandrbakumenko11@gmail.com</a>
-         </div>
+      </div>
+    </section>
+
+    <!-- Author -->
+
+    <section class="author">
+      <div class="container">
+        <div class="author__wrapper">
+          <picture class="author__photo-container">
+            <source type="image/webp"
+              srcset="<%=require('../../images/author/webp/tablet/author-photo-tab@x2.webp').default%> 2x, <%=require('../../images/author/webp/tablet/author-photo-tab@x1.webp').default%> 1x"
+              media="(max-width: 768px)">
+
+            <source type="image/webp"
+              srcset="<%=require('../../images/author/webp/mobile/author-photo-mob@x2.webp').default%> 2x, <%=require('../../images/author/webp/mobile/author-photo-mob@x1.webp').default%> 1x"
+              media="(max-width: 450px)">
+
+            <source type="image/webp"
+              srcset="<%=require('../../images/author/webp/desktop/author-photo-desk@x2.webp').default%> 2x, <%=require('../../images/author/webp/desktop/author-photo-desk@x1.webp').default%> 1x"
+              media="(max-width: 1440px)">
+
+            <source type="image/jpg"
+              srcset="<%=require('../../images/author/jpg/mobile/author-photo-mob@x2.jpg').default%> 2x, <%=require('../../images/author/jpg/mobile/author-photo-mob@x1.jpg').default%> 1x"
+              media="(max-width: 450px)">
+
+            <source type="image/jpg"
+              srcset="<%=require('../../images/author/jpg/tablet/author-photo-tab@x2.jpg').default%> 2x, <%=require('../../images/author/jpg/tablet/author-photo-tab@x1.jpg').default%> 1x"
+              media="(max-width: 768px)">
+
+            <img class="author__photo" alt="Фотография автора данного проекта"
+              src="<%=require('../../images/author/jpg/desktop/author-photo-desk@x1.jpg').default%>"
+              srcset="<%=require('../../images/author/jpg/desktop/author-photo-desk@x2.jpg').default%> 2x">
+
+          </picture>
+          <div class="author__wrapper-text">
+            <h3 class="author__title">Об авторе</h3>
+            <div class="author__wrapper-paragraph">
+              <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
+                занимаетесь,
+                какими
+                технологиями разработки владеете.
+              </p>
+              <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и
+                чем можете помочь потенциальным заказчикам. Также можно рассказать о процессе обучения в Практикуме,
+                чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+            </div>
+          </div>
         </div>
-        <p class="swiper__text-commit">Emmet (formerly Zen Coding) is a web-
-         developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-       </div>
-      </article>
-     </div>
-     <div class="swiper__background swiper__background_left">
-      <div class="swiper__button-prev"></div>
-     </div>
-     <div class="swiper__background swiper__background_right">
-      <div class="swiper__button-next"></div>
-     </div>
+      </div>
+    </section>
+    <section class="swiper">
+      <div class="wrapper wrapper_type-row-a">
+        <div class="wrapper__header wrapper__header_type-top">
+          <h3 class="wrapper__title">История коммитов из GitHub</h3>
+          <a target="blank" href="https://github.com/Origin5665/NewsAnalyzer" class="wrapper__link-dis">Открыть в
+            Github</a>
+        </div>
+        <div class="swiper__container">
+          <div class="swiper__wrapper">
+
+            <!-- Шаблон карточки Коммита -->
+
+            <template class="swiper__template">
+              <article class="swiper__commit">
+                <div class="swiper__container-card">
+                  <p class="swiper__text-date">14 августа, 2019</p>
+                  <div class="swiper__container-block">
+                    <img src="<%=require('../../images/image-01.jpg').default%>" alt="Фотография автора коммита"
+                      class="swiper__image">
+                    <div class="swiper__wrapper-text">
+                      <h4 class="swiper__text-name">Origin56</h4>
+                      <a href="mailto:aleksandrbakumenko11@gmail.com"
+                        class="swiper__text-email">aleksandrbakumenko11@gmail.com</a>
+                    </div>
+                  </div>
+                  <p class="swiper__text-commit">Emmet (formerly Zen Coding) is a web-
+                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                </div>
+              </article>
+            </template>
+
+            <!-- Шаблон карточки Коммита -->
+
+          </div>
+          <div class="swiper__background swiper__background_left">
+            <div class="swiper__button-prev"></div>
+          </div>
+          <div class="swiper__background swiper__background_right">
+            <div class="swiper__button-next"></div>
+          </div>
+        </div>
+        <div class="swiper__wrap">
+          <div class="swiper__pagination">
+            <span class="swiper__pagination-bullet_active"></span>
+          </div>
+          <a href="https://github.com/Origin5665/NewsAnalyzer" target="bank" class="swiper__button">Перейти на
+            GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__wrapper-m">
+          <ul class="footer__lists footer__lists_m">
+            <li>
+              <p class="footer__text-copyright">© 2019 Origin56</p>
+            </li>
+          </ul>
+          <ul class="footer__lists footer__lists_grid-x3">
+            <li><a class="footer__text-menu" href="./index.html">Главная</a></li>
+            <li><a class="footer__text-menu" href="./about.html">О проекте</a></li>
+            <li><a target="bank" class="footer__text-menu" href="https://praktikum.yandex.ru/">Яндекс Практикум</a>
+            </li>
+        </div>
+        <ul class="footer__lists footer__lists_grid-x2">
+          <li><a target="bank" href="https://github.com/Origin5665"><svg class="footer__image" width="24" height="24"
+                viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.9998 1.89478C6.41678 1.89478 1.89453 6.42322 1.89453 12C1.89453 16.4665 4.7915 20.2505 8.80507 21.5904C9.30754 21.6835 9.49364 21.3733 9.49364 21.1004C9.49364 20.8584 9.48744 20.2257 9.48123 19.382C6.67111 19.99 6.07559 18.0297 6.07559 18.0297C5.61654 16.8635 4.95278 16.5533 4.95278 16.5533C4.03469 15.9268 5.02102 15.9392 5.02102 15.9392C6.03217 16.0136 6.57186 16.9813 6.57186 16.9813C7.47135 18.526 8.93534 18.0793 9.51225 17.8188C9.6053 17.1674 9.86584 16.7208 10.1512 16.4665C7.90558 16.2121 5.54831 15.3436 5.54831 11.4728C5.54831 10.3686 5.93912 9.46907 6.59047 8.76189C6.48501 8.50755 6.13762 7.47779 6.68972 6.08824C6.68972 6.08824 7.53958 5.8153 9.46882 7.1242C10.2753 6.90088 11.1375 6.78922 11.9998 6.78302C12.8559 6.78922 13.7243 6.90088 14.5308 7.1242C16.46 5.8153 17.3099 6.08824 17.3099 6.08824C17.862 7.47779 17.5146 8.50755 17.4091 8.76189C18.0543 9.46907 18.4451 10.3686 18.4451 11.4728C18.4451 15.3561 16.0816 16.2059 13.8298 16.4602C14.1896 16.7704 14.5184 17.3908 14.5184 18.3337C14.5184 19.686 14.5059 20.7716 14.5059 21.1066C14.5059 21.3795 14.6858 21.6897 15.2007 21.5904C19.2143 20.2505 22.1051 16.4665 22.1051 12.0062C22.1051 6.42322 17.5828 1.89478 11.9998 1.89478Z"
+                  fill="#191717" />
+              </svg></a></li>
+          <li><a target="bank" href="https://www.facebook.com/telcom.komi"><svg class="footer__image" width="24"
+                height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M20.8958 2H3.10417C2.49417 2 2 2.49417 2 3.10417V20.8967C2 21.5058 2.49417 22 3.10417 22H12.6833V14.255H10.0767V11.2367H12.6833V9.01083C12.6833 6.4275 14.2608 5.02083 16.5658 5.02083C17.67 5.02083 18.6183 5.10333 18.895 5.14V7.84L17.2967 7.84083C16.0433 7.84083 15.8008 8.43667 15.8008 9.31V11.2375H18.79L18.4008 14.2558H15.8008V22H20.8975C21.5058 22 22 21.5058 22 20.8958V3.10417C22 2.49417 21.5058 2 20.8958 2V2Z"
+                    fill="black" />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="20" height="20" fill="white" transform="translate(2 2)" />
+                  </clipPath>
+                </defs>
+              </svg></a></li>
+        </ul>
+      </div>
     </div>
-    <div class="swiper__wrap">
-     <div class="swiper__pagination">
-      <span class="swiper__pagination-bullet_active"></span>
-     </div>
-     <a href="https://github.com/Origin5665/NewsAnalyzer" target="bank" class="swiper__button">Перейти на
-      GitHub</a>
-    </div>
-   </div>
-  </section>
- </main>
- <footer class="footer">
-  <div class="container">
-   <div class="footer__wrapper">
-    <div class="footer__wrapper-m">
-     <ul class="footer__lists footer__lists_m">
-      <li>
-       <p class="footer__text-copyright">© 2019 Origin56</p>
-      </li>
-     </ul>
-     <ul class="footer__lists footer__lists_grid-x3">
-      <li><a class="footer__text-menu" href="./index.html">Главная</a></li>
-      <li><a class="footer__text-menu" href="./about.html">О проекте</a></li>
-      <li><a target="bank" class="footer__text-menu" href="https://praktikum.yandex.ru/">Яндекс Практикум</a>
-      </li>
-    </div>
-    <ul class="footer__lists footer__lists_grid-x2">
-     <li><a target="bank" href="https://github.com/Origin5665"><svg class="footer__image" width="24" height="24"
-        viewBox="0 0 24 24" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-         d="M11.9998 1.89478C6.41678 1.89478 1.89453 6.42322 1.89453 12C1.89453 16.4665 4.7915 20.2505 8.80507 21.5904C9.30754 21.6835 9.49364 21.3733 9.49364 21.1004C9.49364 20.8584 9.48744 20.2257 9.48123 19.382C6.67111 19.99 6.07559 18.0297 6.07559 18.0297C5.61654 16.8635 4.95278 16.5533 4.95278 16.5533C4.03469 15.9268 5.02102 15.9392 5.02102 15.9392C6.03217 16.0136 6.57186 16.9813 6.57186 16.9813C7.47135 18.526 8.93534 18.0793 9.51225 17.8188C9.6053 17.1674 9.86584 16.7208 10.1512 16.4665C7.90558 16.2121 5.54831 15.3436 5.54831 11.4728C5.54831 10.3686 5.93912 9.46907 6.59047 8.76189C6.48501 8.50755 6.13762 7.47779 6.68972 6.08824C6.68972 6.08824 7.53958 5.8153 9.46882 7.1242C10.2753 6.90088 11.1375 6.78922 11.9998 6.78302C12.8559 6.78922 13.7243 6.90088 14.5308 7.1242C16.46 5.8153 17.3099 6.08824 17.3099 6.08824C17.862 7.47779 17.5146 8.50755 17.4091 8.76189C18.0543 9.46907 18.4451 10.3686 18.4451 11.4728C18.4451 15.3561 16.0816 16.2059 13.8298 16.4602C14.1896 16.7704 14.5184 17.3908 14.5184 18.3337C14.5184 19.686 14.5059 20.7716 14.5059 21.1066C14.5059 21.3795 14.6858 21.6897 15.2007 21.5904C19.2143 20.2505 22.1051 16.4665 22.1051 12.0062C22.1051 6.42322 17.5828 1.89478 11.9998 1.89478Z"
-         fill="#191717" />
-       </svg></a></li>
-     <li><a target="bank" href="https://www.facebook.com/telcom.komi"><svg class="footer__image" width="24" height="24"
-        viewBox="0 0 24 24" fill="none">
-        <g clip-path="url(#clip0)">
-         <path
-          d="M20.8958 2H3.10417C2.49417 2 2 2.49417 2 3.10417V20.8967C2 21.5058 2.49417 22 3.10417 22H12.6833V14.255H10.0767V11.2367H12.6833V9.01083C12.6833 6.4275 14.2608 5.02083 16.5658 5.02083C17.67 5.02083 18.6183 5.10333 18.895 5.14V7.84L17.2967 7.84083C16.0433 7.84083 15.8008 8.43667 15.8008 9.31V11.2375H18.79L18.4008 14.2558H15.8008V22H20.8975C21.5058 22 22 21.5058 22 20.8958V3.10417C22 2.49417 21.5058 2 20.8958 2V2Z"
-          fill="black" />
-        </g>
-        <defs>
-         <clipPath id="clip0">
-          <rect width="20" height="20" fill="white" transform="translate(2 2)" />
-         </clipPath>
-        </defs>
-       </svg></a></li>
-    </ul>
-   </div>
-  </div>
- </footer>
- <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 
 </html>
