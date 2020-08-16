@@ -5,3 +5,8 @@
 @import './_type/_type-sum-39/diagram__percent_type-sum-39.css';
 @import './_type/_type-sum-45/diagram__percent_type-sum-45.css';
 @import './_type/_type-sum-73/diagram__percent_type-sum-73.css';
+
+.diagram__percent {
+    background: rgb(50, 50, 206);
+    color: rgb(228, 227, 227)
+}

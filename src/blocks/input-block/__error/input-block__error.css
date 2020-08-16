@@ -1,0 +1,23 @@
+.input-block__error {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(201, 10, 10);
+    position: absolute;
+    bottom: 50px;
+    right: 35%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .input-block__error {
+        bottom: 20px;
+        right: 40%;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .input-block__error {
+        font-size: 13px;
+        bottom: 50px;
+    }
+}

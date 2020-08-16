@@ -43,14 +43,13 @@
             </li>
           </ul>
           <div class="request__wrapper-text-block">
-            <h2 class="request__title">Вы спросили: <span class="request__title">&laquo;Путeшествия&raquo;</span>
-            </h2>
+            <h2 class="request__title">Вы спросили: &laquo;<span class="request__title">Путeшествия&</span>&raquo;</h2>
 
             <div class="request__wrapper-subtext">
-              <p class="request__subtitle">Новостей за неделю: <span
+              <p class="request__subtitle">Новостей за неделю: <span id="total"
                   class="request__subtitle request__subtitle_color_black">34
                   256</span></p>
-              <p class="request__subtitle">Упоминаний в загаловках: <span
+              <p class="request__subtitle">Упоминаний в заголовках: <span id="week"
                   class="request__subtitle request__subtitle_color_black">256</span></p>
             </div>
 
@@ -74,13 +73,11 @@
         <div class="diagram__wrapper-block">
 
           <div class="diagram__wrapper-date">
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Пн</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Вт</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Ср</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Чт</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Пт</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Сб</span></p>
-            <p class="diagram__text-date">19, <span class="diagram__text-date">Вс</span></p>
+            <template class="diagram-date-template">
+              <p class="diagram__text-date">19, Пн</p>
+            </template>
+
+
           </div>
           <div class="diagram__wrapper">
             <div class="diagram__wrapper-num-block">
@@ -93,27 +90,14 @@
             <div class="diagram__wrapper-percent">
 
               <div class="diagram__wrapper-percent-block">
-                <div class="diagram__percent diagram__percent_type-sum-15">
-                  <span class="diagram__text-percent">25</span>
-                </div>
-                <div class="diagram__percent diagram__percent_type-sum-18 ">
-                  <span class="diagram__text-percent">18</span>
-                </div>
-                <div class="diagram__percent diagram__percent_type-sum-11">
-                  <span class="diagram__text-percent">11</span>
-                </div>
-                <div class="diagram__percent diagram__percent_type-sum-39">
-                  <span class="diagram__text-percent">39</span>
-                </div>
-                <div class="diagram__percent diagram__percent_type-sum-45">
-                  <span class="diagram__text-percent">45</span>
-                </div>
-                <div class="diagram__percent diagram__percent_type-sum-73">
-                  <span class="diagram__text-percent">75</span>
-                </div>
-                <div class="diagram__percen  diagram__percent_type-sum-34">
-                  <span class="diagram__text-percent">34</span>
-                </div>
+                <template class="diagram__template">
+
+                  <div class="diagram__percent">
+                  </div>
+
+                </template>
+
+
               </div>
 
             </div>
